@@ -63,7 +63,7 @@ export default function URLConverter() {
               placeholder="Enter GitHub Repo URL(https://github.com/username/repo)"
               value={githubURL}
               onChange={(e) => setGithubURL(e.target.value)}
-              className="flex-1 px-4 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent"
+              className="flex-1 px-4 py-2 text-black border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent"
             />
             <button
               onClick={() => convertURL(githubURL)}
